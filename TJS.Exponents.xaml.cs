@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MoveWarning
+namespace TJS.Exponents.UI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,5 +24,17 @@ namespace MoveWarning
         {
             InitializeComponent();
         }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            //Accedently created 
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
     }
 }
